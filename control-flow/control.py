@@ -1,6 +1,8 @@
 # control flow
 a = 20
 b = 30
+c = 30
+
 # if condition:
 #     statement_1
 #     statement_2
@@ -11,3 +13,9 @@ if a > b:
     print("a is greater than b")
     print('Go ahead')
 print('will always run...') # not part of if statement block
+
+# if else statement
+if b == c:
+    print("b is equal to c")
+else:
+    print("b is not equal c")
