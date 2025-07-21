@@ -1,7 +1,8 @@
 # control flow
-a = 20
-b = 30
+a = 10
+b = 20
 c = 30
+d = 40
 
 # if condition:
 #     statement_1
@@ -19,3 +20,11 @@ if b == c:
     print("b is equal to c")
 else:
     print("b is not equal c")
+
+# elif statement
+if a < b:
+    print("a is less than b")
+elif a < c:
+    print("a is less than c")
+else:
+    print('Something is happening with a.')
