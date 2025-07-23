@@ -81,3 +81,13 @@ print('str6 is a digit:', str6.isdigit())
 # returns True if string contains only digits and/or alphabet chars
 str7 = 'Hello123'
 print('str7 is a alphanumeric:', str7.isalnum())
+
+# chr func
+# returns ascii character from an integer argument
+num = 65
+print(chr(num))
+
+# ord func
+# returns ascii code point from a single char
+char = 'q'
+print(ord(char))
