@@ -55,3 +55,15 @@ print('title case:', str4.title())
 # capitalize func capitalizes the first character
 # of the string and lower cases the rest
 print('capitalize:', str4.capitalize())
+
+# advanced string funcs
+# find
+# return index of search term else return -1
+str5 = 'Hello World'
+print('find index of l:', str5.find('l'))
+print('find index of next l:', str5.find('l', 3))
+print('find index of next l:', str5.find('l', 4,5))
+
+# index
+# return the index of the search term or else error
+print('find index of next l:', str5.index('l', 3,4))
