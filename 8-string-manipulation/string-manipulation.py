@@ -37,3 +37,21 @@ for n in range(len(str2)):
 print('iterate through a string')
 for n in str1:
     print(n)
+
+# common string functions
+
+# lower case and upper case funcs
+str3 = 'Hello World'
+print('lower case:', str3.lower())
+print('upper case:', str3.upper())
+
+# title case
+# title func capitalizes the 1st letter of each word
+# and lower cases the remaining characters
+str4 = 'HELLO WORLD'
+print('title case:', str4.title())
+
+# capitalize case
+# capitalize func capitalizes the first character
+# of the string and lower cases the rest
+print('capitalize:', str4.capitalize())
