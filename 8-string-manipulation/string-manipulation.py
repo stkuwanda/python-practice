@@ -67,3 +67,17 @@ print('find index of next l:', str5.find('l', 4,5))
 # index
 # return the index of the search term or else error
 print('find index of next l:', str5.index('l', 3,4))
+
+# isalpha func checks if string is purely alphabetic.
+# spaces, digits and special characters are not alphabetic
+print('str5 is alphabetic:', str5.isalpha())
+
+# isdigit func
+# returns True if string contains digits only
+str6 = '233'
+print('str6 is a digit:', str6.isdigit())
+
+# isalnum func
+# returns True if string contains only digits and/or alphabet chars
+str7 = 'Hello123'
+print('str7 is a alphanumeric:', str7.isalnum())
