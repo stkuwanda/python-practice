@@ -91,3 +91,14 @@ print(chr(num))
 # returns ascii code point from a single char
 char = 'q'
 print(ord(char))
+
+# string formatting
+
+# using placeholders
+nameStr = 'My name is {firstName} {lastName}.'.format(firstName='John', lastName='Doe')
+
+# using indices
+nameStr1 = 'My name is {0} {1}.'.format('Jane', 'Doe')
+
+# using automatic detection of indices: {} {}
+nameStr2 = 'My name is {} {}.'.format('Jane', 'Doe')
