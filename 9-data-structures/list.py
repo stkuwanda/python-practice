@@ -39,4 +39,20 @@ print('iteration 3 (reversed list2):')
 for i in range(len(list3) - 1, -1, -1):
     print(list3[i])
 
+# syntax of list comprehension
+# [expression for item in list]
+# it is more performant than using a for loop
+list5 = [i for i in range(1, 21)]
+print('new list', list5)
+list6 = [i for i in range(1, 21) if i % 2 == 0]
+print('even numbers list', list6)
+
+# even numbers list with for loop
+# this approach is slower than list comprehension
+list7 = []
+for i in range(1, 21):
+    if i % 2 == 0:
+        list7.append(i)
+
+# using a for loop
 
