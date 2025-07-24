@@ -25,3 +25,18 @@ print('sublist list2[1:5:3]:', list2[1:5:3])
 # that is the number of items it can hold
 print(len(list2))
 
+# list iteration
+list3 = [2, 4, 11, 24, 56, 67, 12, 45, 55, 27, 78, 89, 101, 97]
+print(len(list3))
+print('iteration 1:')
+for i in range(len(list3)):
+    print(list3[i])
+print('iteration 2 (reversed list):')
+list4 = list3[-1::-1]
+for i in list4:
+    print(i)
+print('iteration 3 (reversed list2):')
+for i in range(len(list3) - 1, -1, -1):
+    print(list3[i])
+
+
