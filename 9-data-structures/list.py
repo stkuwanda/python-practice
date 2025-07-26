@@ -96,3 +96,15 @@ list12 = [1, 2, 3, 4, 5]
 for a, b, c in zip(list10, list11, list12):
     print(a, b, c)
 
+# split func
+# split a string into a list
+# by default will split on white space
+wordMessage = 'My name is Simbarashe Kuwanda'
+wordList = wordMessage.split()
+print(wordList)
+
+# list func
+# split a string to individual chars into a list
+wordList1 = list(wordMessage)
+print(wordList1)
+
