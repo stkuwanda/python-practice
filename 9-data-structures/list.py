@@ -86,3 +86,13 @@ print('sorted list8 (reversed):', list8)
 # errors if input param is not found in list
 print('index of number 345:', list8.index(345))
 
+# zip func
+# allows to iterate over multiple lists
+# expects all lists to have same length
+# or works with the smallest list length
+list10 = [10, 20, 30, 40, 50]
+list11 = [11, 12, 13, 14, 15]
+list12 = [1, 2, 3, 4, 5]
+for a, b, c in zip(list10, list11, list12):
+    print(a, b, c)
+
