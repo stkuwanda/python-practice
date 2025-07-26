@@ -54,4 +54,35 @@ for i in range(1, 21):
     if i % 2 == 0:
         list7.append(i)
 
+# count func
+# returns an int count of the number of times an item
+# occurs in the list
+list8 = [12, 200, 45, 40, 4, 9, 31, 345,10, 10, 11, 30, 40, 50, 10, 60, 70, 80, 90, 100, 10, 110, 1]
+print(list8.count(10))
+
+# max func
+# returns highest int item in a list
+maxNumber = max(list8)
+print('biggest item in list8:', maxNumber)
+
+# min func
+# returns highest int item in a list
+minNumber = min(list8)
+print('smallest item in list8:', minNumber)
+
+# sort func
+# by default rearranges list items in place in a sort order
+list8.sort()
+print('sorted list8:', list8)
+print('sorted list8 (reversed):', list8[::-1])
+list9 = [i for i in range(1, 21)]
+list9.reverse()
+print('sorted list9 (reversed):', list9)
+list8.sort(reverse=True)
+print('sorted list8 (reversed):', list8)
+
+# index func
+# returns index of input param
+# errors if input param is not found in list
+print('index of number 345:', list8.index(345))
 
