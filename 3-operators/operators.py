@@ -46,7 +46,7 @@ print('less than: a < b =', a < b)
 print('less than or equal to: a <= b =', a <= b)
 print('greater than or equal to: a >= b =', a >= b)
 
-# logical operators
+# logical/boolean operators
 print('and operator: ', a < b and a < 10)
 print('or operator: ', a <= b or a <= 10)
 print('not operator: ', not a != b)

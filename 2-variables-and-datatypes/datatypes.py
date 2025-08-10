@@ -57,7 +57,7 @@ print(is_active, type(is_active))
 print('True == 1 =', True == 1)
 print('False == 1 =', False == 1)
 
-# falsy values include: None, False, 0, 0.0, '', empty collections ([],{}, ())
+# falsy values include: None, False, 0, 0.0, '', empty collections ([],{},())
 if []:
     print("This won't run.")
 else:
