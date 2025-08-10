@@ -54,4 +54,57 @@ for i in range(1, 21):
     if i % 2 == 0:
         list7.append(i)
 
+# count func
+# returns an int count of the number of times an item
+# occurs in the list
+list8 = [12, 200, 45, 40, 4, 9, 31, 345,10, 10, 11, 30, 40, 50, 10, 60, 70, 80, 90, 100, 10, 110, 1]
+print(list8.count(10))
+
+# max func
+# returns highest int item in a list
+maxNumber = max(list8)
+print('biggest item in list8:', maxNumber)
+
+# min func
+# returns highest int item in a list
+minNumber = min(list8)
+print('smallest item in list8:', minNumber)
+
+# sort func
+# by default rearranges list items in place in a sort order
+list8.sort()
+print('sorted list8:', list8)
+print('sorted list8 (reversed):', list8[::-1])
+list9 = [i for i in range(1, 21)]
+list9.reverse()
+print('sorted list9 (reversed):', list9)
+list8.sort(reverse=True)
+print('sorted list8 (reversed):', list8)
+
+# index func
+# returns index of input param
+# errors if input param is not found in list
+print('index of number 345:', list8.index(345))
+
+# zip func
+# allows to iterate over multiple lists
+# expects all lists to have same length
+# or works with the smallest list length
+list10 = [10, 20, 30, 40, 50]
+list11 = [11, 12, 13, 14, 15]
+list12 = [1, 2, 3, 4, 5]
+for a, b, c in zip(list10, list11, list12):
+    print(a, b, c)
+
+# split func
+# split a string into a list
+# by default will split on white space
+wordMessage = 'My name is Simbarashe Kuwanda'
+wordList = wordMessage.split()
+print(wordList)
+
+# list func
+# split a string to individual chars into a list
+wordList1 = list(wordMessage)
+print(wordList1)
 
