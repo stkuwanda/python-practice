@@ -13,21 +13,28 @@ print('Exponentiation: ', a ** b)
 print('Modulo: ', a % b)
 
 # assignment operators
+
+# addition assignment
 c += b
 print(c)
 
+# subtraction assignment
 d -= 1
 print(d)
 
+# multiplication assignment
 c *= 2
 print(c)
 
+# floor division assignment
 c //= 3
 print(c)
 
+# exponent assignment
 c **= 2
 print(c)
 
+# division assignment
 c /= 2
 print(c)
 
