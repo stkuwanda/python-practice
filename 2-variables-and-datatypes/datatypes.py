@@ -1,4 +1,4 @@
-# numeric integer types: all are immutable
+# numeric types: all are immutable
 
 # int
 num = 10
