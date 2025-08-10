@@ -41,10 +41,10 @@ print(c)
 # comparison operators
 print('equivalence: a == b =', a == b)
 print('non-equivalence: a != b =', a != b)
-print('greater: a > b =', a > b)
-print('less: a < b =', a < b)
-print('less_equal: a <= b =', a <= b)
-print('greater_equal: a >= b =', a >= b)
+print('greater than: a > b =', a > b)
+print('less than: a < b =', a < b)
+print('less than or equal to: a <= b =', a <= b)
+print('greater than or equal to: a >= b =', a >= b)
 
 # logical operators
 print('and operator: ', a < b and a < 10)

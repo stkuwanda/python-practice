@@ -48,3 +48,19 @@ print(employee["siblings"], type(employee["siblings"]))
 # is mutable
 employeeData = {'Simba', 34, 'Software Engineer', True}
 print(employeeData, type(employeeData))
+
+# bool
+# bool is a subclass of int and therefore immutable
+is_active = True
+is_deleted = False
+print(is_active, type(is_active))
+print('True == 1 =', True == 1)
+print('False == 1 =', False == 1)
+
+# falsy values include: None, False, 0, 0.0, '', empty collections ([],{}, ())
+if []:
+    print("This won't run.")
+else:
+    print("Empty list is falsy.")
+
+
