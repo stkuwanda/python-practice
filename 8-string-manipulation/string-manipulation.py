@@ -1,6 +1,6 @@
 # string indexing and slicing
 # positive indices start from 0 and increment by 1
-# negative indices start from -1 and decrement by 1
+# negative indices start from -1 and increment by 1
 str1 = 'Hello World'
 print('should print o:', str1[4])
 print('should print o:', str1[-7])
@@ -102,3 +102,17 @@ nameStr1 = 'My name is {0} {1}.'.format('Jane', 'Doe')
 
 # using automatic detection of indices: {} {}
 nameStr2 = 'My name is {} {}.'.format('Jane', 'Doe')
+
+# were start & stop are integer indices $ step is a skip integer.
+# start indice is inclusive
+# stop indice is non-inclusive
+# string[start] # (at start only)
+
+# with defaults
+# string[start:]       # (from index start to end)
+# string[start:stop]   # (from start to stop)
+# string[:stop]        # (from start to stop)
+# string[:]            # (entire string)
+# string[::step]       # (every step character)
+# string[start::step]  # (starting at start to end, every step character)
+
