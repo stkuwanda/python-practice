@@ -115,4 +115,5 @@ nameStr2 = 'My name is {} {}.'.format('Jane', 'Doe')
 # string[:]            # (entire string)
 # string[::step]       # (every step character)
 # string[start::step]  # (starting at start to end, every step character)
+# string[::-1]         # (entire string in reverse)
 
